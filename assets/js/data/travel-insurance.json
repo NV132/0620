@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": "travel-001",
+      "name": "글로벌 여행보험",
+      "category": "travel",
+      "type": "해외여행보험",
+      "description": "해외여행 중 발생할 수 있는 각종 위험을 보장합니다.",
+      "features": [
+        "해외 의료비 보장",
+        "여권 분실/도난 보장",
+        "항공기 지연/취소 보장"
+      ],
+      "coverage": {
+        "medical": "최대 1억원",
+        "baggage": "최대 200만원",
+        "delay": "최대 50만원"
+      },
+      "premium": {
+        "daily": 3000,
+        "currency": "KRW"
+      },
+      "requirements": {
+        "age": {
+          "min": 1,
+          "max": 80
+        }
+      },
+      "image": "../assets/images/products/travel-insurance-1.jpg",
+      "rating": 4.7,
+      "reviews": 320
+    }
+  ]
+} 
