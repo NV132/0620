@@ -1,0 +1,184 @@
+@use 'sass:color';
+@use 'mixins' as *;
+@use 'variables' as *;
+
+// 챗봇 컨테이너
+.chatbot-container {
+  position: fixed;
+  bottom: $spacing-lg;
+  right: $spacing-lg;
+  z-index: 1000;
+  
+  @include mobile {
+    bottom: $spacing-md;
+    right: $spacing-md;
+  }
+}
+
+// 챗봇 토글 버튼
+.chatbot-toggle {
+  width: 60px;
+  height: 60px;
+  background: $primary-color;
+  border-radius: 50%;
+  @include flex-center;
+  cursor: pointer;
+  box-shadow: $shadow-lg;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: $shadow-xl;
+  }
+  
+  img {
+    width: 30px;
+    height: 30px;
+    filter: brightness(0) invert(1);
+  }
+}
+
+// 챗봇 윈도우
+.chatbot-window {
+  position: absolute;
+  bottom: 80px;
+  right: 0;
+  width: 350px;
+  height: 500px;
+  background: $bg-primary;
+  border-radius: $border-radius-lg;
+  box-shadow: $shadow-xl;
+  display: none;
+  @include flex-column;
+  
+  @include mobile {
+    width: 300px;
+    height: 400px;
+    right: -20px;
+  }
+  
+  &.active {
+    display: flex;
+  }
+}
+
+// 챗봇 헤더
+.chatbot-header {
+  @include flex-between;
+  padding: $spacing-md $spacing-lg;
+  background: $primary-color;
+  color: white;
+  border-radius: $border-radius-lg $border-radius-lg 0 0;
+  
+  h3 {
+    font-size: $font-size-base;
+    font-weight: $font-weight-medium;
+  }
+  
+  .chatbot-close {
+    background: none;
+    border: none;
+    color: white;
+    font-size: $font-size-xl;
+    cursor: pointer;
+    
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+// 챗봇 메시지 영역
+.chatbot-messages {
+  flex: 1;
+  padding: $spacing-lg;
+  overflow-y: auto;
+  
+  .message {
+    margin-bottom: $spacing-md;
+    padding: $spacing-sm $spacing-md;
+    border-radius: $border-radius-md;
+    max-width: 80%;
+    word-wrap: break-word;
+    
+    &.bot-message {
+      background: $bg-secondary;
+      color: $text-primary;
+      margin-right: auto;
+    }
+    
+    &.user-message {
+      background: $primary-color;
+      color: white;
+      margin-left: auto;
+    }
+  }
+}
+
+// 챗봇 입력 영역
+.chatbot-input {
+  @include flex-between;
+  padding: $spacing-md;
+  border-top: $border-width solid $border-color;
+  
+  input {
+    flex: 1;
+    margin-right: $spacing-sm;
+    padding: $spacing-sm;
+    border: $border-width solid $border-color;
+    border-radius: $border-radius-md;
+    font-size: $font-size-sm;
+    
+    &:focus {
+      outline: none;
+      border-color: $primary-color;
+    }
+  }
+  
+  button {
+    padding: $spacing-sm $spacing-md;
+    background: $primary-color;
+    color: white;
+    border: none;
+    border-radius: $border-radius-md;
+    cursor: pointer;
+    font-size: $font-size-sm;
+    
+    &:hover {
+      background: color.adjust($primary-color, $lightness: -10%);
+    }
+  }
+}
+
+// 챗봇 타이핑 인디케이터
+.typing-indicator {
+  @include flex-center;
+  padding: $spacing-sm $spacing-md;
+  background: $bg-secondary;
+  border-radius: $border-radius-md;
+  margin-bottom: $spacing-md;
+  width: fit-content;
+  
+  .dot {
+    width: 8px;
+    height: 8px;
+    background: $text-secondary;
+    border-radius: 50%;
+    margin: 0 2px;
+    animation: typing 1.4s infinite ease-in-out;
+    
+    &:nth-child(1) { animation-delay: -0.32s; }
+    &:nth-child(2) { animation-delay: -0.16s; }
+  }
+}
+
+@keyframes typing {
+  0%, 80%, 100% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+  40% {
+    transform: scale(1);
+    opacity: 1;
+  }
+} 

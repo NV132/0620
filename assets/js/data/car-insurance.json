@@ -1,0 +1,250 @@
+{
+  "category": "car",
+  "products": [
+    {
+      "id": "car-001",
+      "name": "안전운전 자동차보험",
+      "description": "안전운전 할인과 다양한 특약으로 합리적인 보험료",
+      "features": [
+        "안전운전 할인 최대 50%",
+        "자동차 수리비 보장",
+        "대인배상 무제한",
+        "자기신체사고 보장"
+      ],
+      "coverage": {
+        "basic": "대인배상, 대물배상, 자기신체사고",
+        "optional": "자동차 수리비, 긴급출동서비스, 렌터카 비용"
+      },
+      "premium": {
+        "min": 50000,
+        "max": 200000,
+        "average": 120000
+      },
+      "discounts": [
+        "안전운전 할인",
+        "다중계약 할인",
+        "온라인 가입 할인",
+        "장기계약 할인"
+      ],
+      "requirements": {
+        "age": "18세 이상",
+        "license": "운전면허 필요",
+        "vehicle": "등록된 자동차"
+      },
+      "image": "../assets/images/products/car-insurance-1.jpg",
+      "rating": 4.5,
+      "reviews": 1250,
+      "popular": true
+    },
+    {
+      "id": "car-002",
+      "name": "프리미엄 자동차보험",
+      "description": "최고 수준의 보장과 프리미엄 서비스 제공",
+      "features": [
+        "완전보장 특약 포함",
+        "VIP 긴급출동서비스",
+        "렌터카 무료 제공",
+        "24시간 상담 서비스"
+      ],
+      "coverage": {
+        "basic": "대인배상, 대물배상, 자기신체사고",
+        "optional": "완전보장, VIP서비스, 법률비용"
+      },
+      "premium": {
+        "min": 80000,
+        "max": 300000,
+        "average": 180000
+      },
+      "discounts": [
+        "프리미엄 고객 할인",
+        "다중계약 할인",
+        "온라인 가입 할인"
+      ],
+      "requirements": {
+        "age": "21세 이상",
+        "license": "운전면허 3년 이상",
+        "vehicle": "등록된 자동차"
+      },
+      "image": "../assets/images/products/car-insurance-2.jpg",
+      "rating": 4.8,
+      "reviews": 890,
+      "popular": false
+    },
+    {
+      "id": "car-003",
+      "name": "경제형 자동차보험",
+      "description": "필수 보장만으로 저렴한 보험료",
+      "features": [
+        "필수 보장만 포함",
+        "합리적인 보험료",
+        "간편한 가입 절차",
+        "온라인 관리 서비스"
+      ],
+      "coverage": {
+        "basic": "대인배상, 대물배상",
+        "optional": "자기신체사고, 자동차 수리비"
+      },
+      "premium": {
+        "min": 30000,
+        "max": 120000,
+        "average": 80000
+      },
+      "discounts": [
+        "온라인 가입 할인",
+        "장기계약 할인",
+        "안전운전 할인"
+      ],
+      "requirements": {
+        "age": "18세 이상",
+        "license": "운전면허 필요",
+        "vehicle": "등록된 자동차"
+      },
+      "image": "../assets/images/products/car-insurance-3.jpg",
+      "rating": 4.2,
+      "reviews": 2100,
+      "popular": true
+    },
+    {
+      "id": "car-004",
+      "name": "신차전용 자동차보험",
+      "description": "신차 구매 고객을 위한 특별 보험",
+      "features": [
+        "신차 특별 할인",
+        "완전보장 특약",
+        "신차 수리비 보장",
+        "첫 사고 면책 특약"
+      ],
+      "coverage": {
+        "basic": "대인배상, 대물배상, 자기신체사고",
+        "optional": "완전보장, 신차수리비, 면책특약"
+      },
+      "premium": {
+        "min": 60000,
+        "max": 250000,
+        "average": 150000
+      },
+      "discounts": [
+        "신차 할인",
+        "온라인 가입 할인",
+        "장기계약 할인"
+      ],
+      "requirements": {
+        "age": "18세 이상",
+        "license": "운전면허 필요",
+        "vehicle": "신차 (3년 이내)"
+      },
+      "image": "../assets/images/products/car-insurance-4.jpg",
+      "rating": 4.6,
+      "reviews": 750,
+      "popular": false
+    },
+    {
+      "id": "car-005",
+      "name": "가족형 자동차보험",
+      "description": "가족 모두가 운전할 수 있는 보험",
+      "features": [
+        "가족 운전자 포함",
+        "가족 할인 혜택",
+        "가족 사고 특별 보장",
+        "가족 상담 서비스"
+      ],
+      "coverage": {
+        "basic": "대인배상, 대물배상, 자기신체사고",
+        "optional": "가족운전자보장, 가족사고특별보장"
+      },
+      "premium": {
+        "min": 70000,
+        "max": 280000,
+        "average": 160000
+      },
+      "discounts": [
+        "가족 할인",
+        "다중계약 할인",
+        "온라인 가입 할인"
+      ],
+      "requirements": {
+        "age": "18세 이상",
+        "license": "운전면허 필요",
+        "vehicle": "등록된 자동차",
+        "family": "가족 관계 증명"
+      },
+      "image": "../assets/images/products/car-insurance-5.jpg",
+      "rating": 4.4,
+      "reviews": 1100,
+      "popular": true
+    }
+  ],
+  "faqs": [
+    {
+      "question": "자동차보험 가입 시 필요한 서류는 무엇인가요?",
+      "answer": "운전면허증, 자동차등록증, 신분증이 필요합니다. 온라인 가입 시에는 스캔본이나 사진으로도 가능합니다."
+    },
+    {
+      "question": "보험료 할인 혜택은 어떻게 받을 수 있나요?",
+      "answer": "안전운전 할인, 온라인 가입 할인, 다중계약 할인, 장기계약 할인 등 다양한 할인 혜택을 제공합니다."
+    },
+    {
+      "question": "사고 발생 시 어떻게 처리하나요?",
+      "answer": "24시간 긴급연락망으로 신고하시면 현장 출동 및 사고 처리 서비스를 제공합니다."
+    },
+    {
+      "question": "보험료는 언제 납부하나요?",
+      "answer": "월납, 분기납, 연납 중 선택 가능하며, 자동이체나 온라인 결제로 편리하게 납부할 수 있습니다."
+    }
+  ],
+  "calculator": {
+    "factors": [
+      {
+        "name": "차량가격",
+        "type": "range",
+        "min": 10000000,
+        "max": 100000000,
+        "step": 1000000,
+        "default": 30000000
+      },
+      {
+        "name": "운전경력",
+        "type": "select",
+        "options": [
+          {"value": "1", "label": "1년 미만"},
+          {"value": "3", "label": "1-3년"},
+          {"value": "5", "label": "3-5년"},
+          {"value": "10", "label": "5-10년"},
+          {"value": "15", "label": "10년 이상"}
+        ],
+        "default": "5"
+      },
+      {
+        "name": "연령",
+        "type": "range",
+        "min": 18,
+        "max": 80,
+        "step": 1,
+        "default": 35
+      },
+      {
+        "name": "보장수준",
+        "type": "select",
+        "options": [
+          {"value": "basic", "label": "기본보장"},
+          {"value": "standard", "label": "표준보장"},
+          {"value": "premium", "label": "프리미엄보장"}
+        ],
+        "default": "standard"
+      }
+    ],
+    "formula": {
+      "base": 50000,
+      "multipliers": {
+        "vehicle_price": 0.001,
+        "experience": 0.9,
+        "age": 1.0,
+        "coverage": {
+          "basic": 0.8,
+          "standard": 1.0,
+          "premium": 1.3
+        }
+      }
+    }
+  }
+} 

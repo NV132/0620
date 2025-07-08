@@ -1,0 +1,250 @@
+{
+  "category": "health",
+  "products": [
+    {
+      "id": "health-001",
+      "name": "실비의료보험",
+      "description": "실제 의료비를 보장하는 실비보험",
+      "features": [
+        "실제 의료비 100% 보장",
+        "입원/통원 치료 보장",
+        "수술비 특별 보장",
+        "재활치료 보장"
+      ],
+      "coverage": {
+        "basic": "입원치료비, 통원치료비, 수술비",
+        "optional": "재활치료비, 특약수술비, 건강검진비"
+      },
+      "premium": {
+        "min": 30000,
+        "max": 150000,
+        "average": 80000
+      },
+      "discounts": [
+        "건강체크 할인",
+        "온라인 가입 할인",
+        "장기계약 할인"
+      ],
+      "requirements": {
+        "age": "0세-80세",
+        "health": "건강상태 양호",
+        "medical": "최근 2년 내 중대질환 없음"
+      },
+      "image": "../assets/images/products/health-insurance-1.jpg",
+      "rating": 4.6,
+      "reviews": 1800,
+      "popular": true
+    },
+    {
+      "id": "health-002",
+      "name": "중대질환보험",
+      "description": "암, 뇌졸중, 심장질환 등 중대질환 보장",
+      "features": [
+        "암 진단 시 일시금 지급",
+        "뇌졸중/심장질환 보장",
+        "치료비 추가 보장",
+        "생존 시 보험금 지급"
+      ],
+      "coverage": {
+        "basic": "암, 뇌졸중, 심장질환",
+        "optional": "간질환, 신장질환, 폐질환"
+      },
+      "premium": {
+        "min": 50000,
+        "max": 200000,
+        "average": 120000
+      },
+      "discounts": [
+        "건강체크 할인",
+        "가족 할인",
+        "온라인 가입 할인"
+      ],
+      "requirements": {
+        "age": "18세-65세",
+        "health": "건강상태 양호",
+        "medical": "최근 3년 내 중대질환 없음"
+      },
+      "image": "../assets/images/products/health-insurance-2.jpg",
+      "rating": 4.7,
+      "reviews": 1200,
+      "popular": true
+    },
+    {
+      "id": "health-003",
+      "name": "상해보험",
+      "description": "사고로 인한 상해 치료비 보장",
+      "features": [
+        "상해 치료비 보장",
+        "상해 후유장애 보장",
+        "사망 시 보험금 지급",
+        "긴급의료서비스"
+      ],
+      "coverage": {
+        "basic": "상해치료비, 상해후유장애",
+        "optional": "상해사망, 긴급의료서비스"
+      },
+      "premium": {
+        "min": 20000,
+        "max": 100000,
+        "average": 60000
+      },
+      "discounts": [
+        "안전할인",
+        "온라인 가입 할인",
+        "장기계약 할인"
+      ],
+      "requirements": {
+        "age": "0세-80세",
+        "health": "건강상태 제한 없음"
+      },
+      "image": "../assets/images/products/health-insurance-3.jpg",
+      "rating": 4.3,
+      "reviews": 950,
+      "popular": false
+    },
+    {
+      "id": "health-004",
+      "name": "건강검진보험",
+      "description": "정기 건강검진과 예방의학 보장",
+      "features": [
+        "정기 건강검진 보장",
+        "예방접종 비용 보장",
+        "건강상담 서비스",
+        "건강관리 앱 제공"
+      ],
+      "coverage": {
+        "basic": "정기건강검진, 예방접종",
+        "optional": "특수검진, 건강상담서비스"
+      },
+      "premium": {
+        "min": 15000,
+        "max": 80000,
+        "average": 40000
+      },
+      "discounts": [
+        "건강체크 할인",
+        "가족 할인",
+        "온라인 가입 할인"
+      ],
+      "requirements": {
+        "age": "20세-70세",
+        "health": "건강상태 제한 없음"
+      },
+      "image": "../assets/images/products/health-insurance-4.jpg",
+      "rating": 4.4,
+      "reviews": 650,
+      "popular": false
+    },
+    {
+      "id": "health-005",
+      "name": "치아보험",
+      "description": "치아 치료와 관리에 특화된 보험",
+      "features": [
+        "치아 치료비 보장",
+        "임플란트 보장",
+        "정기 치과검진",
+        "치아 관리 상담"
+      ],
+      "coverage": {
+        "basic": "치아치료비, 치과검진",
+        "optional": "임플란트, 치아미백"
+      },
+      "premium": {
+        "min": 25000,
+        "max": 120000,
+        "average": 70000
+      },
+      "discounts": [
+        "치아건강 할인",
+        "가족 할인",
+        "온라인 가입 할인"
+      ],
+      "requirements": {
+        "age": "0세-80세",
+        "health": "건강상태 제한 없음"
+      },
+      "image": "../assets/images/products/health-insurance-5.jpg",
+      "rating": 4.5,
+      "reviews": 800,
+      "popular": true
+    }
+  ],
+  "faqs": [
+    {
+      "question": "건강보험 가입 시 건강체크가 필요한가요?",
+      "answer": "보험 종류에 따라 다르며, 실비보험과 중대질환보험은 건강체크가 필요할 수 있습니다."
+    },
+    {
+      "question": "보험금 청구는 어떻게 하나요?",
+      "answer": "온라인이나 모바일 앱을 통해 간편하게 청구할 수 있으며, 서류 제출도 온라인으로 가능합니다."
+    },
+    {
+      "question": "기존 질환이 있어도 가입할 수 있나요?",
+      "answer": "기존 질환의 종류와 상태에 따라 가입이 가능하며, 일부 제한이 있을 수 있습니다."
+    },
+    {
+      "question": "보험료는 나이에 따라 달라지나요?",
+      "answer": "네, 나이가 많을수록 보험료가 증가하는 것이 일반적입니다."
+    }
+  ],
+  "calculator": {
+    "factors": [
+      {
+        "name": "나이",
+        "type": "range",
+        "min": 0,
+        "max": 80,
+        "step": 1,
+        "default": 35
+      },
+      {
+        "name": "성별",
+        "type": "select",
+        "options": [
+          {"value": "male", "label": "남성"},
+          {"value": "female", "label": "여성"}
+        ],
+        "default": "male"
+      },
+      {
+        "name": "보장금액",
+        "type": "select",
+        "options": [
+          {"value": "1000", "label": "1천만원"},
+          {"value": "3000", "label": "3천만원"},
+          {"value": "5000", "label": "5천만원"},
+          {"value": "10000", "label": "1억원"}
+        ],
+        "default": "3000"
+      },
+      {
+        "name": "보장기간",
+        "type": "select",
+        "options": [
+          {"value": "10", "label": "10년"},
+          {"value": "20", "label": "20년"},
+          {"value": "30", "label": "30년"},
+          {"value": "lifetime", "label": "종신"}
+        ],
+        "default": "20"
+      }
+    ],
+    "formula": {
+      "base": 30000,
+      "multipliers": {
+        "age": 1.02,
+        "gender": {
+          "male": 1.0,
+          "female": 0.9
+        },
+        "coverage": 1.0,
+        "period": {
+          "10": 0.8,
+          "20": 1.0,
+          "30": 1.2,
+          "lifetime": 1.5
+        }
+      }
+    }
+  }
+} 
